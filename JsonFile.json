@@ -1,0 +1,151 @@
+{
+  "nodes": {
+    "0": {
+      "id": 0,
+      "pos": 0,
+      "tag": 0,
+      "weight": 1.7976931348623157E308,
+      "disc": -1,
+      "low": -1,
+      "sm": false,
+      "visited": false
+    },
+    "1": {
+      "id": 1,
+      "pos": 0,
+      "tag": 0,
+      "weight": 1.7976931348623157E308,
+      "disc": -1,
+      "low": -1,
+      "sm": false,
+      "visited": false
+    },
+    "2": {
+      "id": 2,
+      "pos": 0,
+      "tag": 0,
+      "weight": 1.7976931348623157E308,
+      "disc": -1,
+      "low": -1,
+      "sm": false,
+      "visited": false
+    },
+    "3": {
+      "id": 3,
+      "pos": 0,
+      "tag": 0,
+      "weight": 1.7976931348623157E308,
+      "disc": -1,
+      "low": -1,
+      "sm": false,
+      "visited": false
+    },
+    "4": {
+      "id": 4,
+      "pos": 0,
+      "tag": 0,
+      "weight": 1.7976931348623157E308,
+      "disc": -1,
+      "low": -1,
+      "sm": false,
+      "visited": false
+    },
+    "5": {
+      "id": 5,
+      "pos": 0,
+      "tag": 0,
+      "weight": 1.7976931348623157E308,
+      "disc": -1,
+      "low": -1,
+      "sm": false,
+      "visited": false
+    },
+    "6": {
+      "id": 6,
+      "pos": 0,
+      "tag": 0,
+      "weight": 1.7976931348623157E308,
+      "disc": -1,
+      "low": -1,
+      "sm": false,
+      "visited": false
+    }
+  },
+  "NeighborOfNode": {
+    "0": {
+      "1": {
+        "src": 0,
+        "dest": 1,
+        "tag": 0,
+        "w": 1.0
+      },
+      "4": {
+        "src": 0,
+        "dest": 4,
+        "tag": 0,
+        "w": 5.0
+      }
+    },
+    "1": {
+      "2": {
+        "src": 1,
+        "dest": 2,
+        "tag": 0,
+        "w": 1.0
+      },
+      "3": {
+        "src": 1,
+        "dest": 3,
+        "tag": 0,
+        "w": 4.0
+      },
+      "4": {
+        "src": 1,
+        "dest": 4,
+        "tag": 0,
+        "w": 11.0
+      },
+      "6": {
+        "src": 1,
+        "dest": 6,
+        "tag": 0,
+        "w": 6.0
+      }
+    },
+    "2": {
+      "0": {
+        "src": 2,
+        "dest": 0,
+        "tag": 0,
+        "w": 3.0
+      }
+    },
+    "3": {
+      "5": {
+        "src": 3,
+        "dest": 5,
+        "tag": 0,
+        "w": 15.0
+      }
+    },
+    "4": {
+      "5": {
+        "src": 4,
+        "dest": 5,
+        "tag": 0,
+        "w": 2.0
+      }
+    },
+    "5": {
+      "1": {
+        "src": 5,
+        "dest": 1,
+        "tag": 0,
+        "w": 5.0
+      }
+    },
+    "6": {}
+  },
+  "edgeCount": 10,
+  "ModeCount": 17
+}
